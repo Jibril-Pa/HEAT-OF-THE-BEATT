@@ -10,7 +10,7 @@ public class DrumSurface : MonoBehaviour
         audioSource = gameObject.AddComponent<AudioSource>();
         audioSource.clip = drumSound;
         audioSource.playOnAwake = false;
-        audioSource.spatialBlend = 1f; // Makes it a 3D sound
+        audioSource.spatialBlend = 1f;
     }
 
     public void PlayDrumSound(float volume)

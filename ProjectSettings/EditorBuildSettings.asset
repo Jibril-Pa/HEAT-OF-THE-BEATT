@@ -6,10 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/MenuScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/Scenes/Main VR Scene.unity
+    path: Assets/Scenes/Drumset.unity
     guid: 00f5027857acbd2438c6abd508938e99
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 0f839dfb892005c47b327c64e6f831a6, type: 2}

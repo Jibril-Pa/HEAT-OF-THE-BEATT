@@ -27,8 +27,6 @@ public class DrumStick : MonoBehaviour
                     float volume = Mathf.Clamp01(velocity / maxVolumeVelocity);
                     drum.PlayDrumSound(volume);
                 }
-
-                // Optional: add haptic feedback here
             }
         }
     }
